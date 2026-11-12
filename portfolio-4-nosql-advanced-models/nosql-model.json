@@ -1,0 +1,77 @@
+[
+  {
+    "order_id": 1001,
+    "order_status": "Delivered",
+    "customer": {
+      "customer_id": 1,
+      "name": "John Ade",
+      "email": "johnade@example.com",
+      "city": "Lagos"
+    },
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Wireless Headphones",
+        "quantity": 2,
+        "unit_price": 25000
+      },
+      {
+        "product_id": 3,
+        "product_name": "Smart Watch",
+        "quantity": 1,
+        "unit_price": 45000
+      }
+    ],
+    "payment": {
+      "method": "Card",
+      "status": "Successful",
+      "amount": 95000
+    }
+  },
+  {
+    "order_id": 1002,
+    "order_status": "Processing",
+    "customer": {
+      "customer_id": 2,
+      "name": "Mary Okafor",
+      "email": "maryokafor@example.com",
+      "city": "Abuja"
+    },
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Laptop",
+        "quantity": 1,
+        "unit_price": 350000
+      }
+    ],
+    "payment": {
+      "method": "Bank Transfer",
+      "status": "Successful",
+      "amount": 350000
+    }
+  },
+  {
+    "order_id": 1003,
+    "order_status": "Processing",
+    "customer": {
+      "customer_id": 3,
+      "name": "David Bello",
+      "email": "davidbello@example.com",
+      "city": "Lagos"
+    },
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Bluetooth Speaker",
+        "quantity": 2,
+        "unit_price": 18000
+      }
+    ],
+    "payment": {
+      "method": "USSD",
+      "status": "Pending",
+      "amount": 36000
+    }
+  }
+]
