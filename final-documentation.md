@@ -11,7 +11,7 @@ This portfolio presents the design, implementation and evaluation of database te
 
 The purpose of the project was to apply advanced database concepts through practical exercises involving relational database design, query processing and optimisation, transaction management, NoSQL databases, and distributed and cloud database concepts.
 
-### 2. Portfolio 1: Database Design and Modelling
+2. Portfolio 1: Database Design and Modelling
 
 A relational database named `vifset_ecommerce` was implemented using MySQL through XAMPP and phpMyAdmin.
 
@@ -21,7 +21,7 @@ Primary keys, foreign keys, unique constraints, data types and validation constr
 
 Normalisation principles were considered to reduce unnecessary duplication and improve consistency. Sample records were inserted and the database structure was verified through phpMyAdmin.
 
-### 3. Portfolio 2: Query Processing and Optimisation
+3. Portfolio 2: Query Processing and Optimisation
 
 SQL queries were developed to retrieve and analyse information from the VIFSET database.
 
@@ -31,7 +31,7 @@ Indexes were created on selected columns, including order dates, product categor
 
 The exercise demonstrated the importance of appropriate indexing and query analysis in improving database performance.
 
-### 4. Portfolio 3: Transactions and Concurrency
+4. Portfolio 3: Transactions and Concurrency
 
 Transaction management was explored using MySQL and InnoDB.
 
@@ -41,7 +41,7 @@ The database isolation level was inspected and the environment reported REPEATAB
 
 These exercises demonstrated the importance of transaction control, isolation and locking in maintaining reliable database operations when multiple users access shared data.
 
-### 5. Portfolio 4: NoSQL and Advanced Data Models
+5. Portfolio 4: NoSQL and Advanced Data Models
 
 MongoDB Atlas was used to implement a NoSQL database named `vifset_nosql`, containing an `orders` collection with embedded customer, item, payment and delivery information.
 
@@ -95,4 +95,43 @@ The practical exercises strengthened my ability to use database tools, investiga
 AI assistance was used as a learning and development aid during parts of this project. It supported explanations of database concepts, guidance on SQL and MongoDB operations, troubleshooting, and assistance with organising technical documentation.
 
 The database structures, queries, sample data and practical exercises were reviewed and tested using the relevant database tools. The student remains responsible for understanding the implementation, verifying the submitted work and explaining the results.
+
+10. PORTFOLIO EVIDENCE INDEX
+
+Portfolio 1 – Database Design
+- schema.sql
+- sample_data.sql
+- database-design.md
+- vifset_erd.png
+- phpMyAdmin Designer screenshot
+
+Portfolio 2 – Query Optimisation
+- queries.sql
+- performance-analysis.md
+- orders_execution_plan.png
+- products_execution_plan.png
+
+Portfolio 3 – Transactions and Concurrency
+- transactions.sql
+- transaction-analysis.md
+- commit_evidence.png
+- rollback_evidence.png
+- isolation_evidence.png
+- concurrency_lock.png
+- concurrency_update.png
+
+Portfolio 4 – NoSQL
+- nosql-model.json
+- nosql-queries.js
+- nosql-analysis.md
+- MongoDB query and aggregation screenshots
+
+Portfolio 5 – Distributed and Cloud Database
+- distributed-architecture.md
+- partitioning-queries.js
+- architecture-diagram.md
+- atlas_cloud_deployment.png
+- lagos_partition_query.png
+- other_partition_query.png
+- cross_partition_aggregation.png
 
